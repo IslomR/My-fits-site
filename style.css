@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 755px;
+margin: auto;
+}
+header ul{
+    list-style:none;
+    border-bottom: 3px solid #9dc5f0;
+    overflow: hidden;
+    border-top: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    margin-top: 25px;
+}
+header img{
+margin: auto;
+display: block;
+padding-top: 35px;
+}
+header ul li{
+    float: left;
+    padding:12px 28px;
+    border-left: 1px solid #f3f3f3;
+
+}
+header ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+color: #5f5d67;
+}
+header ul li a:hover{
+    color: #9dc5f0;
+    text-decoration: underline;
+}
+section{
+    width: 755px;
+    margin: auto;
+    margin-top: 20px;
+}
+section .left{
+   float: left;
+   background: #ffffff;
+   padding: 32px 30px 72px 38px;
+   margin-top: 23px;
+}
+section .left h1{
+   font-family: Times New;
+   font-size: 24px;
+   color: #555555;
+}
+section .left p{
+   font-family: Arial Regular;
+   font-size: 12px;
+   color: #555555;
+   margin-top: 23px;
+}
+section .right{
+   float: right;
+   padding: 32px 30px 178px 13px;
+   margin-top: 23px;
+   background: #ffffff;
+   margin-left: 10px;
+}
+seection .right h1{
+   font-family: Georgia Regular;
+   font-size: 24px;
+   color: #333333;
+}
+section .right p{
+   font-family: Trebuchet MS Regular;
+   font-size: 12px;
+   color: #333333;
+   margin-top: 23px;
+}
+footer{
+   width: 755px;
+    margin: auto;
+}
+footer p{
+   font-family: Arial Regular;
+   font-size: 12px;
+   margin-top: 15px;
+   margin-bottom: 42px;
+}
